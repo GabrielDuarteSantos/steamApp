@@ -1,0 +1,19 @@
+main {
+    height: 100%;
+    background-color: #181818ED;
+}
+
+#main-container {
+    width: 900px;
+    max-width: 90vw;
+    height: 100%;
+    background-color: #181818ED;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#main-inner-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
