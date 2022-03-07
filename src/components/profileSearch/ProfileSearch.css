@@ -1,0 +1,38 @@
+#search-container p {
+    font-size: 1.5em;
+    line-height: 1.05;
+    margin-bottom: 20px;
+}
+
+#search-field {
+    height: 35px;
+}
+
+#search-field input, #search-btn {
+    vertical-align: top;
+    border: solid #9d00ff;
+    border-width: 2px;
+    height: 100%;
+    font-size: 1.4em;
+    color: inherit;
+}
+
+#search-field input {
+    width: 60%;
+    border-right: 0;
+    background-color: #2e2e2e;
+    padding: 3px 8px;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-btn {
+    background-color: transparent;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: .2s;
+}
+
+#search-btn:hover {
+    background-color: #9d00ff;
+}

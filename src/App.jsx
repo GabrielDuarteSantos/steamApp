@@ -1,6 +1,6 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
 
-import './App.css'
+import './App.css';
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
                 </div>
             </div>
         </main>
-    )
+    );
 }
 
-export default App
+export default App;
