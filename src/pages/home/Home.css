@@ -10,7 +10,7 @@
 }
 
 #home-container h1 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 5em;
     text-shadow: 4px 4px 3px #9d00ff;
 }
@@ -24,6 +24,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: .4s;
+    margin-top: 30px;
 }
 
 #access-btn:hover {
@@ -32,6 +33,19 @@
     transition: .2s;
 }
 
-#search-container {
-    margin-bottom: 50px;
+#search-container p {
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 2s;
+}
+
+#search-field {
+    transform: translate(50%, 0);
+    opacity: 0;
+    transition: 2s;
+}
+
+.active #search-container p, .active #search-field {
+    transform: translate(0, 0);
+    opacity: 1;
 }
