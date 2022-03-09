@@ -10,7 +10,7 @@ export default function AppRoutes() {
         <Routes>
             <Route path='/' element={<App />}>
                 <Route index element={<Home />} />
-                <Route path='/login' element={<Login />} />
+                <Route path='login' element={<Login />} />
                 <Route path='*' element={<h1>NOT FOUND</h1>} />
             </Route>
         </Routes>

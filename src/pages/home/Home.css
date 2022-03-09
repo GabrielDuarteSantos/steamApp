@@ -10,9 +10,13 @@
 }
 
 #home-container h1 {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 5em;
     text-shadow: 4px 4px 3px #9d00ff;
+}
+
+.active #home-container h1 {
+    margin-bottom: 30px;
 }
 
 #access-btn {
@@ -24,7 +28,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: .4s;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #access-btn:hover {
@@ -33,16 +37,23 @@
     transition: .2s;
 }
 
+.active #access-btn {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
 #search-container p {
     transform: translate(-50%, 0);
-    opacity: 0;
-    transition: 2s;
 }
 
 #search-field {
     transform: translate(50%, 0);
+}
+
+#search-container p, #search-field {
     opacity: 0;
-    transition: 2s;
+    transition: .8s;
 }
 
 .active #search-container p, .active #search-field {
