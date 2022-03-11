@@ -1,5 +1,4 @@
 import ProfileSearch from '../../components/profileSearch/ProfileSearch.jsx';
-
 import './Home.css';
 
 export default function Home() {
