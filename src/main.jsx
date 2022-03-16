@@ -1,13 +1,13 @@
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
-import AppRoutes from './AppRoutes';
+import App from './App';
 
 import './index.css';
 
 let mainElm = (
     <BrowserRouter>
-        <AppRoutes />
+        <App />
     </BrowserRouter>
 );
 
